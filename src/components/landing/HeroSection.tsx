@@ -33,15 +33,14 @@ const HeroSection = () => {
             <div className="relative aspect-[9/16] rounded-2xl shadow-rose overflow-hidden border-4 border-card">
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://youtube.com/shorts/vUCTNS6ve-Q?feature=share"
+                src="https://player.vimeo.com/video/1156961417?autoplay=0&loop=0&muted=0&title=0&byline=0&portrait=0"
                 title="Vídeo de introdução"
-                allow="autoplay; encrypted-media; picture-in-picture"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
               />
             </div>
           </div>
-
-
 
           {/* Subheadline */}
           <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.4s" }}>
