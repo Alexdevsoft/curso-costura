@@ -21,7 +21,7 @@ const ConnectionSection = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-cream">
+    <section className="py-16 lg:py-24 bg-section-benefits">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Section header */}
@@ -35,7 +35,7 @@ const ConnectionSection = () => {
           {/* Connection points */}
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             {points.map((point, index) => (
-              <div 
+              <div
                 key={index}
                 className="flex items-start gap-4 p-6 bg-card rounded-xl shadow-sm border border-border hover:shadow-rose transition-shadow duration-300"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -53,12 +53,12 @@ const ConnectionSection = () => {
           {/* Empathetic message */}
           <div className="bg-gradient-to-r from-rose-soft to-secondary p-8 md:p-12 rounded-2xl border border-rose-medium/30">
             <p className="font-body text-lg md:text-xl text-foreground leading-relaxed text-center">
-              Sabemos como é ter vontade de aprender algo novo, mas sentir que o momento nunca chega. 
-              A correria do dia a dia, as responsabilidades, e às vezes até a dúvida: 
+              Sabemos como é ter vontade de aprender algo novo, mas sentir que o momento nunca chega.
+              A correria do dia a dia, as responsabilidades, e às vezes até a dúvida:
               <em className="text-primary font-medium"> "Será que ainda dá tempo?"</em>
             </p>
             <p className="font-body text-lg md:text-xl text-foreground leading-relaxed text-center mt-6">
-              A resposta é: <strong className="text-primary">sim, dá tempo!</strong> E mais do que isso — 
+              A resposta é: <strong className="text-primary">sim, dá tempo!</strong> E mais do que isso —
               este é o momento perfeito para você.
             </p>
             <div className="mt-8 text-center">

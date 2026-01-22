@@ -24,13 +24,17 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Aprenda Corte e Costura do Zero e Conquiste{" "}
-            <span className="text-primary">Autonomia</span>,{" "}
-            <span className="text-gradient-gold">Confiança</span> e Uma Nova Habilidade Útil Para a Vida
+            Domine Corte e Costura:{" "}
+            <span className="text-primary">adquira autonomia</span>,{" "}
+            <span className="text-gradient-gold">Confiança</span> hoje mesmo!
           </h1>
+          {/* Subheadline - ABOVE video */}
+          <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            Um método comprovado para mulheres que desejam aprender a costurar de forma tranquila e sem estresse no seu tempo.
+          </p>
           {/* 🎥 Vídeo embed */}
-          <div className="w-full max-w-sm mb-8 animate-fade-in">
-            <div className="relative aspect-[9/16] rounded-2xl shadow-rose overflow-hidden border-4 border-card">
+          <div className="w-full max-w-2xl mb-8 animate-fade-in"> {/* Aumentei o max-w para o vídeo ter mais presença */}
+            <div className="relative aspect-video rounded-2xl shadow-rose overflow-hidden border-4 border-card">
               <iframe
                 className="absolute inset-0 w-full h-full"
                 src="https://player.vimeo.com/video/1156961417?autoplay=0&loop=0&muted=0&title=0&byline=0&portrait=0"
@@ -41,12 +45,6 @@ const HeroSection = () => {
               />
             </div>
           </div>
-
-          {/* Subheadline */}
-          <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            Um método simples, didático e comprovado, criado especialmente para{" "}
-            <strong className="text-foreground">mulheres maduras</strong> que querem aprender com tranquilidade, no seu ritmo e sem complicação.
-          </p>
 
           {/* CTA Button */}
           <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>

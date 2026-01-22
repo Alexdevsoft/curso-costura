@@ -86,7 +86,7 @@ const OfferSection = () => {
               <Button
                 onClick={handleCTAClick}
                 size="lg"
-                className="w-full bg-gradient-to-r from-primary to-rose-dark hover:from-primary/90 hover:to-rose-dark/90 text-primary-foreground font-body font-bold text-lg py-7 rounded-full shadow-rose hover:shadow-lg transition-all duration-300 hover:scale-[1.02]"
+                className="w-full bg-[#1F5C46] hover:bg-[#184C3A] text-[#FFFFFF] font-semibold py-[14px] px-[28px] rounded-[8px] shadow-rose transition-all duration-300 hover:scale-[1.02] border-none"
               >
                 <Zap className="w-5 h-5 mr-2" />
                 SIM, QUERO APRENDER CORTE E COSTURA AGORA
