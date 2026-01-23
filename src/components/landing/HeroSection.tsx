@@ -20,7 +20,7 @@ const HeroSection = () => {
         <Scissors className="w-10 h-10 text-primary -rotate-12" />
       </div>
 
-      <div className="container mmx-auto px-4 pt-12 lg:pt-20 pb-8">
+      <div className="container mmx-auto px-4 pt-12 lg:pt-20 pb-20">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>

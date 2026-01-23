@@ -34,7 +34,7 @@ const ExitIntentPopup = () => {
 
   const handleCTAClick = () => {
     // TODO: Replace with actual Hotmart checkout link
-    window.open("#checkout", "_blank");
+    window.open("https://pay.hotmart.com/B97955905Y?off=pzkq27nl", "_blank");
     setIsOpen(false);
   };
 
@@ -60,14 +60,14 @@ const ExitIntentPopup = () => {
             A costura pode ser o caminho para sua autonomia, criatividade e realização pessoal.
           </p>
 
-          <Button 
+          <Button
             onClick={handleCTAClick}
             className="w-full bg-gradient-to-r from-primary to-rose-dark hover:from-primary/90 hover:to-rose-dark/90 text-primary-foreground font-body font-semibold py-6 rounded-full"
           >
             QUERO APRENDER CORTE E COSTURA
           </Button>
 
-          <button 
+          <button
             onClick={() => setIsOpen(false)}
             className="mt-4 text-sm text-muted-foreground hover:text-foreground transition-colors font-body"
           >
