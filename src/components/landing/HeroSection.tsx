@@ -8,7 +8,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-rose-soft via-background to-cream overflow-hidden">
+    <section className="relative bg-gradient-to-b from-rose-soft via-background to-cream overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 opacity-20 animate-float">
         <Scissors className="w-16 h-16 text-primary rotate-45" />
@@ -20,7 +20,7 @@ const HeroSection = () => {
         <Scissors className="w-10 h-10 text-primary -rotate-12" />
       </div>
 
-      <div className="container mx-auto px-4 py-12 lg:py-20">
+      <div className="container mmx-auto px-4 pt-12 lg:pt-20 pb-8">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -55,7 +55,7 @@ const HeroSection = () => {
             >
               SIM, QUERO APRENDER CORTE E COSTURA AGORA
             </Button>
-            <p className="text-sm text-muted-foreground mt-4 font-body">
+            <p className="text-sm text-muted-foreground mt-2 font-body">
               ✨ Acesso imediato após a confirmação do pagamento
             </p>
           </div>
