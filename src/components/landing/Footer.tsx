@@ -27,7 +27,6 @@ const Footer = () => {
             <p className="font-body">
               © {currentYear} Fátima costurando idéias. Todos os direitos reservados.
             </p>
-            <p>Desenvolvido por Alexsandro Almeida</p>
             <p className="font-body flex items-center gap-1">
               Feito com <Heart className="w-4 h-4 text-primary fill-primary" /> para você
             </p>
@@ -35,12 +34,6 @@ const Footer = () => {
 
           {/* Legal links */}
           <div className="flex justify-center gap-6 mt-6 text-xs text-primary-foreground/50">
-            <a href="#" className="font-body hover:text-primary-foreground/80 transition-colors">
-              Termos de Uso
-            </a>
-            <a href="#" className="font-body hover:text-primary-foreground/80 transition-colors">
-              Política de Privacidade
-            </a>
           </div>
         </div>
       </div>
