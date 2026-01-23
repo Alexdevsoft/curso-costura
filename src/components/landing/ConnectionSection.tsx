@@ -21,7 +21,9 @@ const ConnectionSection = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 bg-section-benefits">
+    <section className="pt-2 pb-4 lg:pt-2 lg:pb-24 bg-section-benefits">
+      {/* Mantive o pb-16/pb-24 para a parte de baixo da seção, 
+    mas reduzi o pt-16/pt-24 para a parte de cima */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Section header */}

@@ -59,13 +59,13 @@ const TestimonialsSection = () => {
           {/* Testimonials grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-card rounded-2xl shadow-sm border border-border p-6 hover:shadow-rose transition-shadow duration-300 flex flex-col"
               >
                 {/* Quote icon */}
                 <Quote className="w-8 h-8 text-rose-medium mb-4" />
-                
+
                 {/* Testimonial text */}
                 <p className="font-body text-foreground mb-6 flex-grow italic">
                   "{testimonial.text}"
