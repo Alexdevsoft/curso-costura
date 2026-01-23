@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Bottom */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/60">
             <p className="font-body">
-              © {currentYear} Curso de Corte e Costura. Todos os direitos reservados.
+              © {currentYear} Fátima costurando idéias. Todos os direitos reservados.
             </p>
             <p>Desenvolvido por Alexsandro Almeida</p>
             <p className="font-body flex items-center gap-1">

@@ -65,7 +65,7 @@ const ConnectionSection = () => {
             </p>
             <div className="mt-8 text-center">
               <p className="font-display text-2xl md:text-3xl font-bold text-gradient-gold">
-                "Este curso foi pensado exatamente para mulheres como você."
+                "O método fcs foi desenvolvido especialmente para você que deseja aprender a costurar sem complicação."
               </p>
             </div>
           </div>
