@@ -37,7 +37,7 @@ const HeroSection = () => {
             <div className="relative aspect-video rounded-2xl shadow-rose overflow-hidden border-4 border-card">
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://player.vimeo.com/video/1156961417?autoplay=0&loop=0&muted=0&title=0&byline=0&portrait=0"
+                src="https://youtube.com/embed/_nMrUSeWK6Q?autoplay=0&loop=0&muted=0&title=0&byline=0&portrait=0"
                 title="Vídeo de introdução"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
